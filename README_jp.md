@@ -2,7 +2,7 @@
 
 視覚障害者のための3Dプリント可能なそろばんです。触覚での操作に最適化された設計で、誰でも無料でダウンロード・印刷が可能。教育現場での計算学習や個人使用にお役立てください。
 
-[English README](README.md) | [Thingiverse](プラットフォームURL追加予定)
+[English README](README.md) | [Thingiverse](https://www.thingiverse.com/thing:7116846)
 
 ## 完成品画像
 
@@ -159,8 +159,7 @@
 
 ## 関連リンク
 
-- [Thingiverse版](リンク予定)
-- [視覚障害者支援技術について](関連リンク予定)
+- [Thingiverse版](https://www.thingiverse.com/thing:7116846)
 
 
 ## ライセンス
