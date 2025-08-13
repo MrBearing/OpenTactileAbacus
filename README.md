@@ -159,8 +159,7 @@ We hope it contributes to creating a more accessible society.
 
 ## Related Links
 
-- [Thingiverse Version](Link pending)
-- [About Assistive Technology for Visually Impaired](Related link pending)
+- [Thingiverse Version](https://www.thingiverse.com/thing:7116846)
 
 ## License
 
