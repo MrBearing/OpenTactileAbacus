@@ -2,7 +2,7 @@
 
 A 3D printable abacus designed for visually impaired users. Optimized for tactile operation, this design can be freely downloaded and printed by anyone. Perfect for educational use in schools and personal calculation practice.
 
-[日本語版README](README_jp.md) | [Thingiverse](https://www.thingiverse.com/thing:7116846)
+[日本語版README](README_jp.md) | [Thingiverse](https://www.thingiverse.com/thing:7116846)  [MakerWorld](https://makerworld.com/ja/models/1695604)
 
 ## Product Images
 
