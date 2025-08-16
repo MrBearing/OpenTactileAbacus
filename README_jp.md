@@ -1,6 +1,6 @@
 # OpenTactileAbacus
 
-視覚障害者のための3Dプリント可能なそろばんです。触覚での操作に最適化された設計で、誰でも無料でダウンロード・印刷が可能。教育現場での計算学習や個人使用にお役立てください。
+視覚障害者のための3Dプリント可能なそろばんです。
 
 [English README](README.md) | [Thingiverse](https://www.thingiverse.com/thing:7116846) | [MakerWorld](https://makerworld.com/ja/models/1695604)
 
