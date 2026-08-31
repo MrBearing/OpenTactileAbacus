@@ -61,8 +61,10 @@ Fusion 360 source files are provided for customization and improvement:
 ### Recommended File Format
 
 - **3MF File (Recommended)**: Includes print settings and supports optimized for Bambu Lab printers
+  - The included profile uses **Bambu Support For PLA/PETG as filament 2 for the support interfaces** and sets the top Z distance to `0 mm`. Map filament 2 to the specified support material and use an AMS or an equivalent multi-material setup.
+  - Do not map both filament slots to the same PLA spool without first adding a removable interface gap; the zero-gap interfaces may bond to the print-in-place parts.
 - **STL Files**: For other printers or custom slicer settings
-  - **Important (Bambu Studio)**: Set **Gap Infill Radius** to `0.02 mm` before slicing
+  - **Important (Bambu Studio)**: Set **Slice gap closing radius** (`slice_closing_radius`) to `0.02 mm` before slicing
 
 ### Recommended Settings
 
@@ -102,7 +104,7 @@ Print time and filament usage are estimates based on the Bambu Lab X1 Carbon.
 ### Using the STL Files
 
 1. Import `stl/23digits_abacus_left.stl` and `stl/23digits_abacus_right.stl` into your slicer.
-2. If you use Bambu Studio, set **Gap Infill Radius** to `0.02 mm`.
+2. If you use Bambu Studio, set **Slice gap closing radius** (`slice_closing_radius`) to `0.02 mm`.
 3. Set an appropriate orientation and supports, then print both sections.
 4. Follow the post-processing instructions above to remove supports and release the beads.
 5. Join the dovetail connectors on the left and right sections.
