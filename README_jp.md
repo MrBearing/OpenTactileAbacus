@@ -26,35 +26,23 @@
 ├── README_jp.md           # 日本語版README（このファイル）
 └── files/
     ├── 3mf/
-    │   ├── 14digits_abacus.3mf    # 14桁そろばん（3MF形式）
     │   └── 23digits_abacus.3mf    # 23桁そろばん（3MF形式）
     ├── autodesk_fusion/
-    │   ├── 14digits_abacus.f3z    # 14桁ソースファイル（Fusion 360）
-    │   ├── 23digits_abacus.f3z    # 23桁ソースファイル（Fusion 360）
-    │   └── beads.f3d              # 珠ソースファイル（Fusion 360）
+    │   └── 23digits_abacus.f3z    # 23桁ソースファイル（Fusion 360）
+ beads.f3d              # 珠ソースファイル（Fusion 360）
     └── stl/
-        ├── 14digits_frame.stl     # 14桁フレーム（STL形式）
-        ├── 23digits_frame_left.stl  # 23桁フレーム左側（STL形式）
-        ├── 23digits_frame_right.stl # 23桁フレーム右側（STL形式）
-        └── beads.stl              # 計算珠（STL形式）
+        ├── 23digits_abacus_left.stl  # 23桁フレーム左側（STL形式）
+        ├── 23digits_abacus_right.stl # 23桁フレーム右側（STL形式）
 ```
 
 ## 利用可能なモデル
 
-### 14桁そろばん
-- **ファイル**: 
-  - `files/3mf/14digits_abacus.3mf`（印刷推奨）
-  - `files/stl/14digits_frame.stl` + `files/stl/beads.stl`
-
 ### 23桁そろばん
-- **組み立て**: フレーム部分の接着剤による組み立てが必要
 - **ファイル**: `files/3mf/23digits_abacus.3mf`
 
 ### ソースファイル
 カスタマイズ・改良用のFusion 360ソースファイルを提供：
-- `files/autodesk_fusion/14digits_abacus.f3z`
 - `files/autodesk_fusion/23digits_abacus.f3z`
-- `files/autodesk_fusion/beads.f3d`
 
 ## 印刷仕様
 
@@ -79,11 +67,9 @@
   - スナップフィット部分の強度確保のため、層の方向が重要です
   - 縦向きで印刷するとスナップフィット部分が破損しやすくなります
 - **印刷時間**: 
-  - 14桁版: 約12時間
-  - 23桁版: 約23時間 (5プレート)
+  - 23桁版: 約12時間 (1プレート)
 - **フィラメント使用量**:
-  - 14桁版: 約140g
-  - 23桁版: 約235g
+  - 23桁版: 約280g
 
 印刷時間とフィラメント量はBambu Lab X1 Carbon使用時の目安です。
 
